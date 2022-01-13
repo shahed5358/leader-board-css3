@@ -7,6 +7,31 @@ body{
     font-family: 'poppins', sans-serif;
     background-color: #F3F1FF;
 }
+header{
+    background-color: blue;
+    height: 100px;
+}
+.nav-var{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-item li{
+    padding: 20px;
+   
+}
+.nav-item a{
+    text-decoration: none;
+    color:white;
+}
+.nav-item img{
+    width: 50px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -130,13 +155,26 @@ hr{
     padding: 5px;
     background-color: rgba(244, 96, 116, 0.3);
     margin-right: 10px;
+    
 }
+footer{
+    text-align: center;
+    background-color:blue;
+    height: 50px;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+}
+
 
 /*-----------------
     Media queries 
  -----------------*/
  /* Mobile Phone */
  @media only screen and (max-width:688px) {
+     .nav-item{
+
+     }
      .container{
          width: 100%;
 
