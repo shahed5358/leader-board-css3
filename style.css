@@ -11,6 +11,10 @@ header{
     background-color: blue;
     height: 100px;
 }
+nav{
+    width: 870px;
+    margin-left: 150px;
+}
 .nav-var{
     display: flex;
     justify-content: space-between;
@@ -30,7 +34,7 @@ header{
     color:white;
 }
 .nav-item img{
-    width: 50px;
+    width: 40px;
 }
 main{
     display: flex;
@@ -172,9 +176,7 @@ footer{
  -----------------*/
  /* Mobile Phone */
  @media only screen and (max-width:688px) {
-     .nav-item{
-
-     }
+    
      .container{
          width: 100%;
 
